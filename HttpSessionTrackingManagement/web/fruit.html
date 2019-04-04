@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+            body
+            {
+                background-color: #dc00ff;
+            }
+            .FRU
+            {
+                margin-top: 40px;
+            }
+           p
+           {
+               font-size: 30px;
+           }
+           .select
+           {
+               border-radius: 6px;
+             padding-left: 0px;
+             margin-right: 110px;
+             height: 30px;
+             width: 160px;
+             color: #ff0000;
+             font-family: Arial;
+             font-size: 17px;
+             background-color: #00d4ff;
+           }
+           .enter
+           {
+               border-bottom-left-radius: 14px;
+               height: 30px;
+               width: 140px;
+               background-color: #00d4ff;
+                color: #ff0000;
+                font-family: Arial;
+                font-size: 25px;
+                padding-left: 20px;
+                margin-left: 20px;
+           }
+           .additem
+           {
+               border-bottom-left-radius: 12px;
+               border-top-right-radius: 10px;
+               background-color: #c3ff00;
+               margin-left: 20px;
+               height: 30px;
+               width: 90px;
+               font-family: Arial;
+               font-size: 18px;
+           }
+           .listofitem
+           {
+               background-color: #00ff87;
+               height: 30px;
+               width: 150px;
+               font-family: Arial;
+               font-size: 18px;
+               border-bottom-left-radius: 10px;
+               border-bottom-right-radius: 5px;
+               margin-left: 110px;
+           }
+           .clickhere
+           {
+               font-family: Arial;
+               font-size: 20px;
+               color: #ffe500;
+               margin-right: 10px;
+           }
+        </style>
+
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="FRU">
+            <center>
+                <form action="./serv1" >
+            <p>Select FRUITS: 
+            &nbsp;&nbsp;<select class="select" name="selectfru">
+                
+                <option></option>
+                <option>1.APPLE</option>
+                <option>2.MANGO</option>
+                <option>3.BANANA</option>
+                <option>4.WATERMELON</option>
+                  
+            </select></p>
+            <P>Enter Quantities:<input type="text" name="qty" class="enter" placeholder="Quantities">
+                <input type="submit" value="Add-item" class="additem" ></p></form>
+            <br><br>
+            <form action="./serv2">
+            <input type="submit" value="List-of-Items" class="listofitem">
+            </form><br>
+            <br><br>
+            <a href="index.html" class="clickhere">click here</a>go back to home
+            </center>
+            
+        <div>
+    </body>
+</html>
+
